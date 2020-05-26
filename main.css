@@ -1,4 +1,18 @@
+.pageHeader {
+    text-align: center;
+} 
 .list {
+    /*border: 1px solid red;*/
+    margin: 10px;
     display: flex;
-
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.shop {
+    border: 1px dotted;
+    width: 100px;
+    /*background-color: violet;*/
+    text-align: left;
+    flex: 0 0 25%;
+    
 }
